@@ -59,7 +59,7 @@ strlen_done:
     mov x8, #64
     mov x0, #1
     ldr x1, =space
-    mov x2, #1
+    mov x2, #space_len
     svc #0
 
     b next_arg
