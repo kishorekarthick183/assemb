@@ -1,0 +1,4 @@
+*.o
+echo
+
+.DS_Store
